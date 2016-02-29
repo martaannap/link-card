@@ -30,13 +30,17 @@ div {
   color: white;
   font-family: "Dosis";
   font-size: 1.123rem;
-  border-radius: 8px;
-  padding: 7px;
-  margin-top: 15px;
-  background-color: pink;
+  border-top: 3px solid #9a816d;
+}
 
+dl {
+  border-top: 3px solid #9a816d;
 }
 
 .link-card:hover {
     background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
 }
