@@ -15,15 +15,31 @@ a {
 
 .link-card {
   display: inline-block;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+  padding: 15px;
 
 }
 
 h1{
+  display: inline-block;
   font-family: "Dosis";
   font-size: 1.5rem;
   margin: 0;
 }
 
+p{
+  display: inline-block;
+  font-size: 1rem;
+}
+
+dd, dt {
+  display: inline-block;
+  font-size: 0.875rem;
+  width: 45%;
+  margin:0;
+}
 
 div {
   text-align: center;
@@ -31,7 +47,6 @@ div {
   font-family: "Dosis";
   font-size: 1.123rem;
   border-top: 3px solid #9a816d;
-}
 
 dl {
   border-top: 3px solid #9a816d;
@@ -43,4 +58,9 @@ dl {
 
 .link-card:hover .btn {
   background-color: #512200;
+  display: inline-block;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  padding: 7px;
+  margin-top: 15px
 }
