@@ -1,0 +1,13 @@
+html {
+  background-color: pink;
+}
+
+.link-card:hover {
+  background-color: #5e54af;
+  border-color: #5e54af;
+  color: #fff;
+}
+
+.link-card:hover .btn {
+    background-color: #bbb6e3;
+}
