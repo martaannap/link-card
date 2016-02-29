@@ -8,7 +8,11 @@ html {
   box-sizing: inherit;
 }
 
-a {
+h2 {
+  display: inline-block;
+  margin: 0;
+  font-family: "Dosis";
+  font-size: 1.5rem;
   text-decoration: none;
   color: #512200;
 }
@@ -17,15 +21,10 @@ a {
   display: inline-block;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 15px;
-}
-
-h2 {
-  display: inline-block;
-  margin: 0;
-  font-family: "Dosis";
-  font-size: 1.5rem;
+  color: #512200;
+  text-decoration: none;
 }
 
 p {
@@ -56,15 +55,15 @@ div {
   margin-top: 15px;
 }
 
+footer {
+  text-align: center;
+  border-top: 3px solid #9a816d;
+}
+
 .link-card:hover {
   background-color: #cabdb2;
 }
 
 .link-card:hover div {
   background-color: #512200;
-}
-
-footer {
-  text-align: center;
-  border-top: 3px solid #9a816d;
 }
